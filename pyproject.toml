@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "altlinux-branch-diff"
+version = "0.1.0"
+description = "Generate difference between p10 and sisyphus branches"
+authors = ["al-ov73"]
+readme = "README.md"
+packages = [
+    { include = 'generate_diff' }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

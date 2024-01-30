@@ -10,9 +10,8 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pandas = "^2.2.0"
 requests = "^2.31.0"
-argparse = "^1.4.0"
+flake8 = "^7.0.0"
 
 [tool.poetry.scripts]
 gendiff = "generate_diff.scripts.generate_diff:main"
